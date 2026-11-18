@@ -23,5 +23,5 @@ periodic box at restart.
 Each DCD has 101 frames at 1 ps intervals, retaining the original
 coordinates and box records. Load each DCD with the corresponding
 case's inits/m2.psf (5141 particles). Times are relative to the start of
-the respective recorded NVT segment. These are short example outputs,
+the respective recorded NVT dynamics. These are short example outputs,
 not the complete production trajectories or fitting datasets.
