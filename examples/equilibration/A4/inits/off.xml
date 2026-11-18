@@ -1,0 +1,5 @@
+<ForceField>
+ <SN2OffDiagForce>
+    <Pair type1="30" type2="43"  A1="383.833320336081" r1="0.18000709296144043" D1="355.77337181778273"/>
+ </SN2OffDiagForce>
+</ForceField>
