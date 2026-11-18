@@ -1,10 +1,8 @@
 # Unbiased A1 (R1) and A4 (R4) water–vacuum slab examples
 
-Each example contains isoprene + OH and 1024 Drude-model water molecules.
+Each example contains isoprene + OH and 1024 water molecules (SMW4/Fw).
 The full EVB potential is integrated in NVT at 300 K with a 0.5 fs time
-step. There is no depth restraint, wall, metadynamics bias, or pulling.
-The original PLUMED blocks only recorded collective variables; the
-example drivers omit that optional output, so PLUMED is not needed.
+step. 
 
 Use CUDA-enabled OpenMM and NumPy. Copy the selected case to a separate
 run directory, enter that directory, and run:
@@ -23,5 +21,4 @@ periodic box at restart.
 Each DCD has 101 frames at 1 ps intervals, retaining the original
 coordinates and box records. Load each DCD with the corresponding
 case's inits/m2.psf (5141 particles). Times are relative to the start of
-the respective recorded NVT dynamics. These are short example outputs,
-not the complete production trajectories or fitting datasets.
+the respective recorded NVT segment. 
